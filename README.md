@@ -4,7 +4,7 @@
 
 <hr>
 
-### To set the default password length, you can set the LENGTH variable, which is set to 10 characters by default:
+### To set the default password length, you can set the LENGTH variable, which is set to 10 characters by default.
 
 <br>
 
@@ -12,7 +12,7 @@
 LENGTH = 10
 ```
 
-### You can also change the length of the password by entering the file entry:
+### You can also change the length of the password by entering the entry.
 
 <br>
 
