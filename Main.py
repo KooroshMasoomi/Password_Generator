@@ -4,9 +4,14 @@ from os import system
 import sys
 
 UPPERCASE = True
+
 LOWERCASE = False
+
 NUMBERS = True
+
 SYMBOLS = False
+
+letters = ""
 
 if len(sys.argv) == 1:
     LENGTH = 10
@@ -24,8 +29,6 @@ settings = {
     "NUMBERS": digits if NUMBERS else False,
     "SYMBOLS": punctuation if SYMBOLS else False,
 }
-
-letters = ""
 
 if list(settings.values()).count(False) == 4:
     print("All settings options are disabled, cannot generate password!")
