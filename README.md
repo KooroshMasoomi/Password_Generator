@@ -28,8 +28,11 @@ Main.py 20
 
 ```python
 UPPERCASE = True
+
 LOWERCASE = False
+
 NUMBERS = True
+
 SYMBOLS = False
 ```
 
