@@ -36,4 +36,7 @@ else:
         if settings[option]:
             letters += settings[option]
 
-print(*choices(list(letters), k=LENGTH), sep="")
+result = "".join(choices(list(letters), k=LENGTH))
+            
+if __name__ == "__main__":
+    print(result)
