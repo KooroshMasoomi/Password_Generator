@@ -14,10 +14,10 @@ SYMBOLS = False
 letters = ""
 
 if len(sys.argv) == 1:
-    LENGTH = 10
+    length = 10
 elif len(sys.argv[1:]) == 1:
     if sys.argv[1].isdigit():
-        LENGTH = int(sys.argv[1:][0])
+        length = int(sys.argv[1:][0])
     else:
         print("The input is not a number!")
 elif len(sys.argv[1:]) > 1:
@@ -39,7 +39,7 @@ else:
         if settings[option]:
             letters += settings[option]
 
-result = "".join(choices(list(letters), k=LENGTH))
+result = "".join(choices(list(letters), k=length))
             
 if __name__ == "__main__":
     print(result)
